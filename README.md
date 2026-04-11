@@ -1,6 +1,6 @@
 # Formalization Seminar SoSe 2026 Uni Greifswald
 
-This the course webpage for a seminar on formalization in Lean at the Universität Greifswald in summer semester 2026. The goal is to learn something about formalization of mathematics and how to use the proof assistant Lean. 
+This the course webpage for a seminar on formalization in Lean at the Universität Greifswald in summer semester 2026. The goal is to learn something about formalization of mathematics and how to use the proof assistant Lean.
 
 ## Some Theoretical Background
 
