@@ -110,6 +110,12 @@ Here are some interesting books and learning material, that will serve the basis
 - [Mathematics in Lean](https://leanprover-community.github.io/mathematics_in_lean/) by [Jeremy Avigad](https://github.com/avigad) and [Patrick Massot](https://github.com/PatrickMassot) 
 - [Theorem Proving in Lean 4](https://lean-lang.org/theorem_proving_in_lean4/) by [Jeremy Avigad](https://github.com/avigad), [Leonardo de Moura](https://leodemoura.github.io/), [Soonho Kong](https://github.com/soonhokong) and [Sebastian Ullrich](https://github.com/kha)
 
+## Formalization and AI
+
+Here are some interesting efforts to integrate advanced AI into Lean.
+- [Aristotle](https://aristotle.harmonic.fun/) by [Harmonic](https://harmonic.fun/)
+- [Gauss](https://www.math.inc/gauss) by [Math.inc](https://www.math.inc/)
+
 
 ## Some Other Recommendations
 
