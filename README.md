@@ -93,9 +93,9 @@ If there are any challenges with the local installation, here are some (temporar
 
 <a href='https://codespaces.new/nimarasekh/Formalization-SoSe25' target="_blank" rel="noreferrer noopener"><img src='https://github.com/codespaces/badge.svg' alt='Open in GitHub Codespaces' style='max-width: 100%;'></a>
 
-- Another option to work with the project is via Gitpod:
+- Another option to work with the project is via Ona:
   
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/nimarasekh/Formalization-SoSe25)
+[![Open in Ona](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/nimarasekh/Formalization-SoSe25)
 
 ## Learning Material
 
