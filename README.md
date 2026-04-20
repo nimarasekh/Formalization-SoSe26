@@ -32,10 +32,10 @@ Please following steps (before starting the steps read the whole instructions on
 - Follow the steps outlined in the following [instructions](https://leanprover-community.github.io/get_started.html) 
 - **Note:** Part of the installation involves installing [Visual Studio Code](https://code.visualstudio.com/) (where we write Lean code) and [git](https://git-scm.com/) (for version control)
 - **Warning:** if you are using Windows you might have to deactivate your anti-virus during the installation process!
-- **Small Change:** In the step **Set up Lean 4 project** click on **Download an existing project** (third bullet point). Choose `Git repository URL`, enter `https://github.com/nimarasekh/Formalization-SoSe25` and then select a folder where you want to download this repository, and specify a folder name. Then press `Create project folder` and wait a few minutes.
+- **Small Change:** In the step **Set up Lean 4 project** click on **Download an existing project** (third bullet point). Choose `Git repository URL`, enter `https://github.com/nimarasekh/Formalization-SoSe26` and then select a folder where you want to download this repository, and specify a folder name. Then press `Create project folder` and wait a few minutes.
 
 * When you have downloaded the repository a message appears allowing you to open the project folder.
-To test that everything is working, open the repository and open the file `Formalization-SoSe25/Cover.lean`.
+To test that everything is working, open the repository and open the file `Formalization-SoSe26/Cover.lean`.
 The file should be ready a few seconds later. Try out the `CLICK HERE` in the file and see if you get the correct responses.
 
 * A useful (but optional) extension is the VSCode extension `Error Lens`. If you install this, you will see messages from Lean right in the file where you're typing.
@@ -91,11 +91,11 @@ If there are any challenges with the local installation, here are some (temporar
 - There is an online option for experimentation with Lean: [Lean Online](https://live.lean-lang.org/)
 - A more advanced option is to work with the project via GitHub Codespaces:
 
-<a href='https://codespaces.new/nimarasekh/Formalization-SoSe25' target="_blank" rel="noreferrer noopener"><img src='https://github.com/codespaces/badge.svg' alt='Open in GitHub Codespaces' style='max-width: 100%;'></a>
+<a href='https://codespaces.new/nimarasekh/Formalization-SoSe26' target="_blank" rel="noreferrer noopener"><img src='https://github.com/codespaces/badge.svg' alt='Open in GitHub Codespaces' style='max-width: 100%;'></a>
 
 - Another option to work with the project is via Ona:
   
-[![Open in Ona](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/nimarasekh/Formalization-SoSe25)
+[![Open in Ona](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/nimarasekh/Formalization-SoSe26)
 
 ## Learning Material
 
