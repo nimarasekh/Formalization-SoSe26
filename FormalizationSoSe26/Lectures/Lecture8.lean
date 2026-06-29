@@ -11,7 +11,7 @@ The last couple of lectures we discussed:
 - `instances`: examples of classes that Lean can synthesize automatically
 - `hierarchies`: To relate and extend classes
 - `morphisms`: To define structure-preserving maps between structures
-- `subobjects`: To define subsebts of structures that inherit the structure
+- `subobjects`: To define subsets of structures that inherit the structure
 
 This officially ends the `computer science` part of the course.
 For the rest of the course, we will return to the `mathematics` part.
@@ -184,11 +184,14 @@ example {X Y : Type*} (f : X → Y) {s : Set X} : (𝓟 s).map f = 𝓟 (f '' s)
 
 /-
 The *pullback* of filters generalizes preimages
-For a given map `f : X → Y`, the pullback of a filter `G : Filter Y` is the filter
+For a given map `f : X → Y`, the pullback of a filter `G : Filter Y`
 is a filter on `X` made of sets whose image is in `G`.
 -/
 example {X Y : Type*} (f : X → Y) : Filter Y → Filter X :=
   Filter.comap f
+
+example {X Y : Type*} (f : X → Y) (G : Filter Y) (U : Set X) :
+    U ∈ Filter.comap f G ↔ ∃ V ∈ G, f ⁻¹' V ⊆ U := refl _
 
 -- -- This is again monotone and composes, but the composition is contravariant.
 #check Filter.comap_mono
@@ -291,6 +294,7 @@ It is defined to be `{ x | P x } ∈ F`.
 The following example shows that if `P n` and `Q n` hold for sufficiently large `n`,
 then so does `P n ∧ Q n`.
 -/
+
 example (P Q : ℕ → Prop) (hP : ∀ᶠ n in atTop, P n) (hQ : ∀ᶠ n in atTop, Q n) :
     ∀ᶠ n in atTop, P n ∧ Q n :=
   hP.and hQ
@@ -400,7 +404,6 @@ which states that `f` is differentiable and `f'(x) = y`.
 
 example (x : ℝ) : HasDerivAt Real.sin (Real.cos x) x :=
   hasDerivAt_sin x
-
 
 /-
 We can also specify that a function has a derivative without specifying its derivative.
